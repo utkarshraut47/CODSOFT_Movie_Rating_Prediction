@@ -1,18 +1,17 @@
-Movie Rating Prediction
+Movie Rating Prediction with Python
 
-This project focuses on predicting movie ratings using the IMDb Movies India dataset. The goal is to build a machine learning model that can estimate a movie’s rating based on available features such as year, duration, genre, director, actors, and votes.
+This project focuses on predicting movie ratings using machine learning techniques in Python. The goal is to build a model that estimates the rating of a movie based on features such as genre, director, actors, year, duration, and votes. By analyzing historical movie data, this project demonstrates how regression models can be used to predict user or critic ratings.
 
-The project follows a complete data science workflow, including data cleaning, handling missing values, feature engineering, encoding categorical variables, model training, and evaluation. A RandomForestRegressor is used to predict ratings, and the model is assessed using Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). Visualizations are also included to compare actual and predicted ratings.
+The workflow includes data cleaning, handling missing values, feature engineering, encoding categorical variables, and training a RandomForestRegressor model. The dataset is split into training and testing sets, and the model’s performance is evaluated using Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). The project provides valuable insights into how different movie-related features influence ratings and showcases the practical application of machine learning in the entertainment industry.
 
-This project is a great example of applying machine learning to real-world entertainment data and demonstrates how regression models can be used for predictive analysis.
 Key Features
+-Data preprocessing and cleaning
+-Missing value handling
+-Feature engineering and categorical encoding
+-Regression model training using RandomForestRegressor
+-Performance evaluation with MSE and RMSE
+-Data visualization for result interpretation
 
-Data preprocessing and cleaning
-Missing value handling
-Feature engineering and categorical encoding
-Regression model training using RandomForestRegressor
-Performance evaluation with MSE and RMSE
-Data visualization for result interpretation
 Technologies Used
 
 Python
